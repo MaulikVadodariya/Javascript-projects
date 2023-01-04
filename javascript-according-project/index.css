@@ -1,0 +1,56 @@
+.accordian_body {
+  max-width: 600px;
+  margin: 0rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.8rem 0rem;
+}
+
+.faq {
+  width: 100%;
+  background-color: #4caf50;
+  border-radius: 8px;
+  margin: 0rem 0rem 1.4rem;
+  padding: 0.7rem 1.4rem;
+}
+
+.faq .faq_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.faq p {
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1rem 0rem 0rem;
+  padding: 0rem;
+}
+
+.faq .show_btn {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: white;
+  margin: 0rem;
+  border-radius: 120px;
+  cursor: pointer;
+  float: right;
+}
+
+.hidden {
+  display: none;
+}
